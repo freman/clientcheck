@@ -16,7 +16,7 @@ Make any call over https to this server and it'll return a JSON blob with everyt
 
  * Returns as much information as I could get easily without forking the entire tls library
  * Can use standard ssl certificates and keys
- * Can use acme () certificates
+ * Can use acme ([letsencrypt.org](https://letsencrypt.org/)) certificates
 
 # License
 
