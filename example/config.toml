@@ -1,0 +1,11 @@
+Listen=":443"
+UseACME=false
+
+[ACME]
+DirCache="/tmp/acme"
+Email="example@example.com
+HostWhitelist=["clientcheck.example.com"]
+
+[[Certificates]]
+CertFile="example.crt"
+KeyFile="example.key"
